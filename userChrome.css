@@ -1,6 +1,8 @@
 /* Always required at the beginning */
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
-/* use this to remove the text of normal bookmarks and leave the text for folders */
+/* Use this to remove the text of normal bookmarks and leave the text for folders */
 #PlacesToolbarItems > .bookmark-item:not([container]) > .toolbarbutton-text{display:none !important}
 
+/* Remove forward and back buttons */
+#back-button, #forward-button { display:none!important; }
