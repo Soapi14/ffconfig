@@ -1,2 +1,2 @@
 # Firefox Configuartion
-A repository to save my Firefox user configuartion files
+A repository to save my Firefox user configuration files
