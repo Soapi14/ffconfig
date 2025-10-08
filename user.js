@@ -1,5 +1,10 @@
 
 /****************************************************************************
+ * Personal changes                                                         *
+ ***************************************************************************/
+
+
+/****************************************************************************
  * Peskyfox                                                                 *
  * "Aquila non capit muscas"                                                *
  * priority: remove annoyances                                              *
@@ -147,7 +152,7 @@ user_pref("browser.download.open_pdf_attachments_inline", true);
 ****************************************************************************/
 
 // PREF: determines whether pages normally meant to open in a new window (such as
-user_pref("browser.tabs.loadDivertedInBackground", true);
+user_pref("browser.tabs.loadDivertedInBackground", false);
 
 // PREF: restore "View image info" on right-click
 user_pref("browser.menu.showViewImageInfo", true);
